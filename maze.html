@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Maze Maker</title>
+	<link rel="stylesheet" type="text/css" href="maze.css">
+</head>
+<body>
+	<div id="addButtons">
+		<button onclick="addRow()">Add Row</button>
+		<br><br>
+		<button onclick="addColumn()">Add Column</button>
+	</div>
+
+	<div id="tableContainer">
+		<table id="table">
+			<tr>
+				<td id="td1" onclick="placeImageOrRotate('td1')" >
+
+				</td>
+				<td id="td2" onclick="placeImageOrRotate('td2')" >
+					
+				</td>
+				<td id="td3" onclick="placeImageOrRotate('td3')" >
+					
+				</td>
+			</tr>
+			<tr>
+				<td id="td4" onclick="placeImageOrRotate('td4')" >
+					
+				</td>
+				<td id="td5" onclick="placeImageOrRotate('td5')" >
+					
+				</td>
+				<td id="td6" onclick="placeImageOrRotate('td6')" >
+					
+				</td>
+			</tr>
+			<tr>
+				<td id="td7" onclick="placeImageOrRotate('td7')" >
+					
+				</td>
+				<td id="td8" onclick="placeImageOrRotate('td8')" >
+					
+				</td>
+				<td id="td9" onclick="placeImageOrRotate('td9')" >
+					
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="imageContainer">
+		<img src="images/2path90.png">
+		<img src="images/2path180.png">
+		<img src="images/3path.png">
+		<img src="images/4path.png">
+	</div>
+
+	<script type="text/javascript" src="maze.js"></script>
+</body>
+</html>

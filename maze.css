@@ -1,0 +1,75 @@
+body{
+	background-color: white;
+}
+
+#imageContainer{
+	margin-top: 20px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#tableContainer{
+	display: flex;
+	justify-content: center;
+}
+
+table, td{
+	border: 1px solid dashed;
+}
+td{
+	padding: 100px;
+	background: white;
+	border-collapse:collapse;
+}
+table{
+	padding: 10px;
+	background: black;
+	border-radius: 15px;
+}
+
+
+
+img{
+	margin-bottom: -5px;
+	width: 200px;
+	height: 200px;
+}
+
+/*td > img{
+	transform-origin: 50% 50%;
+}*/
+
+.rotate90{
+transform: rotate(90deg);
+}
+
+.rotate180{
+transform: rotate(180deg);
+}
+
+.rotate270{
+transform: rotate(270deg);
+}
+
+.rotate0{
+transform: rotate(0deg) ;
+}
+
+#imageContainer > img{
+	border:1px solid black;
+	margin: 2px;
+}
+
+.noPadding{
+	padding: 0;
+}
+
+#addButtons{
+	display:flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 410px;
+}
